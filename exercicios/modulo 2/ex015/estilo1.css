@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* Em HTML é id = Em CSS é # 
+   EM HTML é class = EM CSS é .*/
+
+body {
+    background-color: rgb(255, 184, 208);
+    font-family: sans-serif ;
+}
+
+h1 {
+    color: rgb(247, 4, 255);
+}
+
+#principal {
+    text-align: center;
+    background-color: rgb(247, 4, 255); /*O id ele serve pra ser usado em apenas 1 única tag, funciona mas ñ e o certo de se usar*/
+    }
+.basico {
+        color: rgb(69, 243, 69); /* A class pode ser usada em inúmeras tags, além q tmb pode tem ter duas class juntas e tmb uma class e um id juntos tmb (mas o id sempre sobrepõe) */
+}
+
+.intermediario {
+        color: rgb(247, 247, 26);
+}
+
+.avacado {
+        color: red;
+}
+
+.exemplo1 {
+    background-color: aqua;
+}
+
+.exemplo2 {
+    color: brown;
+}
+
+

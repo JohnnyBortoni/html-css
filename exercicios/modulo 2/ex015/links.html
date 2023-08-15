@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color:blueviolet;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after { /*Os pseudoselementos (::) ele faz com q coisas antes e coisas depois aparecam sem alterar nada no HTML5 */
+        content: ' [link]' ;
+        color: darkgray;
+        text-decoration: none;
+        font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li> <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+        <li> <a href="https://color.adobe.com/pt/create/color-wheel" target="_blank">Adobe Colors</a>
+        <li> <a href="https://pt-br.facebook.com/" target="_blank">Facebook</a>
+    </ul>
+</body>
+</html>

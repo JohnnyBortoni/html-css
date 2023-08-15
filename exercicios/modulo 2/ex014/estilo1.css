@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, #E51E00, #F00101, #DB0053);
+    font-family:  'Courier New', Courier, monospace; /* Você coloca# tres tipos de fonte para q se usa n funcionar o dispostivo vai usar a próxima */
+    color: #00F94B;
+}
+
+h1 {
+    font-family: serif;
+}
+
+h2 {
+    font-family: sans-serif;
+}

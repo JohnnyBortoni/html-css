@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 3</title>
+</head>
+<body>
+    <h1>Revisão &downarrow;</h1>
+    <hr>
+    <h2>Imagens Dinâmicas</h2>
+    <p>As imagens dinâmicas, elas se adaptam de acordo de como está o tamanho da sua página para o usuário, ou seja, se a tela estiver pequena, media ou grande vai aparecer uma imagem de diferentes tamanhos ou outras imagens.</p>
+    <picture>
+        <source media="(max-width: 350px)" srcset="imagens/dilma.jpg" type="image/jpg">
+        <source media="(max-width: 500px)" srcset="imagens/bozo.jpg" type="image/jpg">
+       <img src="imagens/lula.jpg" alt="Imagem flexível">
+    </picture> 
+
+    <h2>Colocando áudio no site</h2>
+    <p>Para colocar audio é preciso, colocar a tag audio e o parânmetro controls, para criar uma área aonde o usuário possa controlar o áudio</p>
+    <p>NÃO OUÇA O ÁUDIO ABAIXO NO MAX DE VOLUME!!!!!!</p>
+    <audio src="audio/gemido-whatsapp.mp3" controls></audio> <br>  
+
+    <h2>Colocando vídeo no site</h2>
+    <p></p>
+    <video src="video_e_mais/moranguete.mp4" width="500" poster="video_e_mais/moranguinho.jpg" controls loop> </video> <!--NA tag vídeo se pode colocar souche, que serve para colocar todos os tipos de formatos de vídeos existentes-->
+    <h2>Estilo CSS3 Inline </h2>
+    <p>Feito dentro das próprias tags modificadas. <br> Exemplo: <br></p>
+    <h1 style="color: brown;" >Capítulo 1</h1> 
+    <h2 style="color: blueviolet;">Capítulo 1.1</h2>
+    <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus consectetur recusandae odit cum non id eveniet ipsum possimus earum! Cupiditate quo rem ut repellendus voluptate natus hic ipsam voluptates ratione!</p>
+    <h2 style="color: blueviolet;">Capítulo 1.2</h2>
+    <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rerum necessitatibus impedit expedita iste, commodi excepturi eum laboriosam odit sed nulla et exercitationem quibusdam doloribus perspiciatis blanditiis iusto labore reprehenderit.</p>
+    <h1 style="color: brown;">Capítulo 2</h1>
+    <h2 style="color: blueviolet;">Capítulo 2.1</h2>
+    <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident libero odit ea cupiditate ratione asperiores aspernatur dolore id molestias quidem ullam velit, et aliquam, iusto, fuga labore quaerat ipsum earum!</p><br>
+    <h1>O RESTO ESTÁ PASTA CSS</h1>
+
+</body>
+</html>

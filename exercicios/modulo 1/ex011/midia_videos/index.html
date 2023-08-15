@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video poster="thumb_do_video/pizza.jpg" width="500" controls loop>  <!--O paranmetro poster e para colocar a thubmnail do video-->
+        <source src="my_video.mp4"  width="500" type="video/mp4"> <br>
+        <source src="My Video.mkv"  width="500" type="video/mkv"> <br> <!--O video vai ser mostrado em todos os formatos mas sempre terá um padrão que o seu naveguador vai escolher-->
+        <source src="My Video.webm"  width="500" type="video/webm">
+    </video> 
+    <h1>Inserindo vídeos no Youtube</h1> <!--Você consegue pegar esse código pelo Youtube, so ir em compartilhar, incorporar e copiar-->
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/kCG72WdPHuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   
+</body>
+</html>

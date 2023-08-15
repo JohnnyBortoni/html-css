@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de agrupamento</title>
+    <style>
+        body {
+            background-color: chocolate;
+            font-family: sans-serif;
+        }
+
+        header {
+            width: 600px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: blueviolet;
+            box-shadow: 1px 1px 1px black; /* O primeiro pixel é para mover horizontalemente (Postivo e para a direita e negativo e para esquerda), o segundo é para mover verticalmente (Negativo e para cima e positivo e para baixo) é o terceiro e o espalhamento que deixa mais claro ou mais escuro */
+            padding: 3px;
+        }
+
+        nav > a {
+            color: coral;
+            text-decoration: none;
+            padding: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: lime;
+        } 
+
+        main {
+            background-color: crimson;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px; /*Você altera o formato das vértices da borda*/
+            box-shadow:3px -3px 5px 0px rgba(0, 0, 0, 0.226);
+                }
+        
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 20px 0px;
+        }
+
+        article > aside {
+            background-color: aqua;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header> <!--Cabeçalho-->
+    <h1>My site</h1>
+    <nav> <!--Menu-->
+        <a href="#">Exemplo </a> 
+        <a href="#">Exemplo </a>
+        <a href="#">Exemplo </a>
+        <a href="#">Exemplo </a>
+    </nav>
+    </header> 
+    <main> <!--Conteúdo principal-->
+     <section id="Coisas"> <!--Seção-->
+
+     </section>
+     <section id="Notices">
+     <article> <!--Artigo-->
+     <h2>Notícias sobre a Blaze</h2>
+     <article>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis at ex blanditiis ipsa nisi quia, est voluptatum. Natus laboriosam blanditiis harum accusamus voluptas provident aliquid aliquam, itaque voluptate dolore dicta?</p>
+     <aside> <p>Artigo escrito por Bolsonaro Inácio Messias</p></aside> <!--É um conteúdo periférico com o artigo-->
+     </article>
+     <article>
+
+     </article>
+     </section>
+    </main>
+    <footer> <!--Rodapé-->
+    <p>Desenvolvido pelo JG</p>
+    </footer>
+</body>
+</html>

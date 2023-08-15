@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador </p>
+    <picture> <!--Serve para colocar vários source-->
+        <source media="(max-width: 500px )" srcset="imagens/foto-p.png" type="image/png"> <!--Serve para trocar a imagem da tag img na resolução definida -->
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível"> 
+    </picture> <!--Para funcionar é preciso estar na ordem do menor para o maior-->
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios no HTML5</p>
+    <audio src="midia_som/Anxiety - NEFFEX.mp3" controls autoplay></audio> <!--O paranmetro controls é para criar barra aonde se pode pausar, volta, avançar, aumentar, diminuir e aumentar a velocidade do áudio. O Autoplay é para quando o site for aberto já começar a tocar o áudio, mas só funciona em poucos naveguadores -->
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas </title>
+    <style>
+        h1 {
+            background-color: blueviolet;
+            height: 300px; /* <-- Altura */
+            width: 300px; /* <-- Largura */
+
+            /* O border (borda) é usado para criar uma borda para o  conteúdo.  */
+            border-width: 10px;  /* <-- Largura da borda */
+            border-style: solid; /* <-- O tipo de borda */
+            border-color: aqua; /* <-- A cor da borda */
+
+            /* O padding (Aconchoamento/preenchimento) é o espaço entre o conteúdo é a borda. É para ser utilizidado é preciso que você coloque na ordem certa, que é cima, direita, baixo e esquerda (igual a como o relógio anda). */
+            padding-top: 10px; /* <-- Cima */
+            padding-right: 10px; /* <-- Direita */
+            padding-bottom: 10px; /* <-- Baixo */
+            padding-left: 10px; /* <-- Esquerda */
+
+            /* A margin (margem) é usado para criar espaços em todos os lados. É para usar é preciso colocar na mesma ordem do q o do padding*/
+          /*  margin: auto; <-- Vai colocar o conteúdo no meio */
+            margin-top: 10px;  /* <-- Cima */
+            margin-right: 10px; /* <-- Direita */
+            margin-bottom: 10px; /* <-- Baixo */
+            margin-left: 10px; /* <-- Esquerda */
+            
+            /* O outline (traçado/contorno) é um contorno que fica em cima da borda que tem a mesma função da borda */
+            outline-width: 5px; /* Largura do outline */
+            outline-style: dashed; /* Tipo de outline */
+            outline-color: crimson; /* Cor do outline */
+        }
+
+        a {
+            border-width: 13px;
+            border-style: solid;
+            border-color: brown;
+        }
+    </style>
+</head>
+<body>
+   <h1>Exemplo de caixa box-level</h1> <!--As caixas de tipo block-level, são aquelas que pulam uma linha se necessário e ocupam todo o espaço da janela no navegador (mesmo q o conteúdo não chege até o final), depoois de mostrado o conteúdo pula uma linha e mostra outro conteúdo--> 
+   <p>Parágrafos também são exemplos de box-level, mas os <a href="#" style="text-decoration: none;">links    </a>são exemplos de caixas de tipo inline-level. Vamos ver como tudo isso funciona.</p> <!--As caixas de tipo inline-level, são aquelas e que o conteúdo e mostrado na mesma linhas do que o resto, e o seu tamanho vai ser definido pelo o que foi escrito nele-->
+</body>
+</html>
