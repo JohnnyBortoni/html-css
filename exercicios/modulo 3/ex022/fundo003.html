@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posição dos fundos</title>
+    <style>
+     div.bloco {
+           background-image: url(imagens/wallpaper003.jpg);
+           height: 200px;
+           margin: 10px;
+           border: 1px solid black;
+           border-radius: 20px;
+     }
+
+     div#quad1 {
+          background-position: left top; /*Serve para o site sempre focar em uma parte especifíca da imagem */
+     }
+
+     div#quad2 {
+          background-position: left center;         
+     }
+
+     div#quad3 {
+          background-position: right bottom;
+     }
+
+     div#quad4 {
+          background-position: center center;
+     }
+
+    </style>
+</head>
+<body>
+    <div class="bloco" id="quad1">
+    </div>
+    <div class="bloco" id="quad2">
+    </div>
+    <div class="bloco" id="quad3">
+    </div>
+    <div class="bloco" id="quad4">       
+    </div>
+</body>
+</html>
